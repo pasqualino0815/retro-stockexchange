@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+
+#ifndef UMainH
+#define UMainH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <Menus.hpp>
+#include <ScktComp.hpp>
+//---------------------------------------------------------------------------
+class TfrmMain : public TForm
+{
+__published:	// IDE-managed Components
+        TMainMenu *mmMain;
+        TMenuItem *mmFile;
+        TMenuItem *mmiConnect;
+        TMenuItem *N1;
+        TMenuItem *mmiQuit;
+        TMenuItem *mmiDisconnect;
+        TClientSocket *Client;
+        void __fastcall mmiQuitClick(TObject *Sender);
+        void __fastcall mmiConnectClick(TObject *Sender);
+        void __fastcall mmiDisconnectClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+        __fastcall TfrmMain(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TfrmMain *frmMain;
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,48 @@
+object frmMain: TfrmMain
+  Left = 192
+  Top = 114
+  Width = 202
+  Height = 178
+  Caption = 'Client'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = mmMain
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object mmMain: TMainMenu
+    Left = 72
+    Top = 65520
+    object mmFile: TMenuItem
+      Caption = '&File'
+      object mmiConnect: TMenuItem
+        Caption = '&Connect'
+        OnClick = mmiConnectClick
+      end
+      object mmiDisconnect: TMenuItem
+        Caption = '&Disconnect'
+        OnClick = mmiDisconnectClick
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object mmiQuit: TMenuItem
+        Caption = '&Quit'
+        OnClick = mmiQuitClick
+      end
+    end
+  end
+  object Client: TClientSocket
+    Active = False
+    Address = '127.0.0.1'
+    ClientType = ctNonBlocking
+    Host = 'localhost'
+    Port = 12345
+    Left = 104
+    Top = 65520
+  end
+end

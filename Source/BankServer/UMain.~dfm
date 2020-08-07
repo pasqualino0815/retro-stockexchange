@@ -1,0 +1,55 @@
+object frmMain: TfrmMain
+  Left = 367
+  Top = 217
+  Width = 185
+  Height = 208
+  Caption = 'Bank Server'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = mmMain
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 89
+    Height = 13
+    Caption = 'Connected Clients:'
+  end
+  object lbClients: TListBox
+    Left = 8
+    Top = 24
+    Width = 161
+    Height = 121
+    ItemHeight = 13
+    TabOrder = 0
+  end
+  object mmMain: TMainMenu
+    Left = 112
+    Top = 65528
+    object mmFile: TMenuItem
+      Caption = '&File'
+      object mmiQuit: TMenuItem
+        Caption = '&Quit'
+        OnClick = mmiQuitClick
+      end
+    end
+  end
+  object Server: TServerSocket
+    Active = True
+    Port = 12345
+    ServerType = stNonBlocking
+    OnClientConnect = ServerClientConnect
+    OnClientDisconnect = ServerClientDisconnect
+    OnClientRead = ServerClientRead
+    Left = 144
+    Top = 65528
+  end
+end

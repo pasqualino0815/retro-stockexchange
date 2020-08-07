@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2007.10.21 19:27:23.953.cpp,D:\Eigene Dateien\Projects\RAD Studio\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UMain.cpp</Transaction>
+    <Transaction>2007.10.21 19:27:23.968.h,D:\Eigene Dateien\Projects\RAD Studio\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UMain.h</Transaction>
+    <Transaction>2007.10.21 19:27:23.968.dfm,D:\Eigene Dateien\Projects\RAD Studio\Unit1.dfm=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UMain.dfm</Transaction>
+    <Transaction>2007.10.21 19:27:29.359.cbproj,D:\Eigene Dateien\Projects\RAD Studio\Project1.cbproj=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\StockServer.cbproj</Transaction>
+    <Transaction>2007.10.21 19:42:56.625.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUsers.cpp</Transaction>
+    <Transaction>2007.10.21 19:42:56.625.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUsers.h</Transaction>
+    <Transaction>2007.10.21 19:43:17.531.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUsers.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUser.cpp</Transaction>
+    <Transaction>2007.10.21 19:43:17.531.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUsers.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUser.h</Transaction>
+    <Transaction>2007.10.21 19:54:17.593.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUser.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUsers.cpp</Transaction>
+    <Transaction>2007.10.21 19:54:17.593.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUser.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UUsers.h</Transaction>
+    <Transaction>2007.10.21 19:54:40.437.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UStocks.cpp</Transaction>
+    <Transaction>2007.10.21 19:54:40.437.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UStocks.h</Transaction>
+    <Transaction>2007.10.21 19:55:34.125.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UPortofolio.cpp</Transaction>
+    <Transaction>2007.10.21 19:55:34.125.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UPortofolio.h</Transaction>
+    <Transaction>2007.10.21 19:56:09.921.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UCommandQueue.cpp</Transaction>
+    <Transaction>2007.10.21 19:56:09.921.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UCommandQueue.h</Transaction>
+    <Transaction>2007.10.31 21:58:00.234.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UPortofolioArray.cpp</Transaction>
+    <Transaction>2007.10.31 21:58:00.234.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UPortofolioArray.h</Transaction>
+    <Transaction>2007.11.15 14:26:36.937.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UVirtualBuyers.cpp</Transaction>
+    <Transaction>2007.11.15 14:26:36.937.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UVirtualBuyers.h</Transaction>
+    <Transaction>2007.11.21 16:46:13.101.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UMyVector.cpp</Transaction>
+    <Transaction>2007.11.21 16:46:13.101.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UMyVector.h</Transaction>
+    <Transaction>2007.11.22 10:06:51.148.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UAddStock.cpp</Transaction>
+    <Transaction>2007.11.22 10:06:51.148.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UAddStock.h</Transaction>
+    <Transaction>2007.11.22 10:06:51.148.dfm,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.dfm=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UAddStock.dfm</Transaction>
+    <Transaction>2007.11.27 15:06:41.390.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UMyVector.cpp=</Transaction>
+    <Transaction>2007.12.15 15:33:23.921.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UOptions.cpp</Transaction>
+    <Transaction>2007.12.15 15:33:23.921.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UOptions.h</Transaction>
+    <Transaction>2007.12.15 15:33:23.921.dfm,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\Unit1.dfm=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\StockServer\UOptions.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

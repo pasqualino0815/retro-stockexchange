@@ -1,0 +1,87 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "UMain.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TfrmMain *frmMain;
+TStringList *sClients;
+//---------------------------------------------------------------------------
+__fastcall TfrmMain::TfrmMain(TComponent* Owner)
+        : TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+AnsiString getAddress(AnsiString s) {
+
+}
+
+int getAmount(AnsiString s) {
+
+}
+
+void message(AnsiString s) {
+  Application->MessageBox(s.c_str(),"Look",MB_OK);
+}
+
+void __fastcall TfrmMain::Button1Click(TObject *Sender)
+{
+  Application->MessageBox("This should be on top.", "Look", MB_OK);
+  TStringList* lst=new TStringList();
+  lst->Add("test");
+  message(lst->Strings[0]);
+  lst->Free();
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmMain::mmiQuitClick(TObject *Sender)
+{
+  Close();        
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmMain::ServerClientConnect(TObject *Sender,
+      TCustomWinSocket *Socket)
+{
+  int client = sClients->IndexOf(Socket->RemoteAddress);
+  if(client != -1)
+    lbClients->Items->Add(sClients->Strings[client]);
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmMain::ServerClientDisconnect(TObject *Sender,
+      TCustomWinSocket *Socket)
+{
+  lbClients->Clear();
+  Server->Active = true;
+  sClients->LoadFromFile("Clients.txt");
+  lbClients->Items->Delete(lbClients->Items->IndexOf(Socket->RemoteAddress));
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TfrmMain::FormCreate(TObject *Sender)
+{
+  sClients = new TStringList();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TfrmMain::FormDestroy(TObject *Sender)
+{
+  sClients->SaveToFile("Clients.txt");
+  sClients->Free();
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TfrmMain::ServerClientRead(TObject *Sender,
+      TCustomWinSocket *Socket)
+{
+  if(Socket->ReceiveText() == "CREATE") {
+    sClients->Add(Socket->RemoteAddress + ";1000");
+    lbClients->Items->Add(sClients->Strings[sClients->Count-1]);
+  }
+}
+//---------------------------------------------------------------------------
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2007.10.18 16:35:18.109.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\UBankConnection.cpp</Transaction>
+    <Transaction>2007.10.18 16:35:18.109.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\UBankConnection.h</Transaction>
+    <Transaction>2007.10.18 16:35:18.109.dfm,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\Unit1.dfm=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\UBankConnection.dfm</Transaction>
+    <Transaction>2007.11.08 13:26:58.406.cpp,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\Unit1.cpp=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\UListClient.cpp</Transaction>
+    <Transaction>2007.11.08 13:26:58.421.h,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\Unit1.h=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\UListClient.h</Transaction>
+    <Transaction>2007.11.08 13:26:58.421.dfm,D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\Unit1.dfm=D:\Eigene Dateien\Projects\RAD Studio\StockExchange\Client\UListClient.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

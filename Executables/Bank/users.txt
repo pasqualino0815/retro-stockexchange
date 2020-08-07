@@ -1,0 +1,4 @@
+127.0.0.1;pascal;pascal;92138,46
+127.0.0.2;pascal2;pascal2;296,80
+127.0.0.3;pascal3;pascal3;2900,00
+127.0.0.4;pascal4;pascal4;2800,00
