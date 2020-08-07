@@ -11,11 +11,14 @@ The project consist of 3 seperate applications:
 - StockExchange: Buy Stocks for users
 - Client: Buy stocks with money stored in the bank
 
-![Screenshot 1](images/screen1.png){:width="50%"}
+## Connections
+<image src="https://github.com/pasqualino0815/retro-stockexchange/raw/master/images/screen1.png" width="50%" />
 
-![Screenshot 2](images/screen2.png){:width="50%"}
+## Flows 
+<image src="https://github.com/pasqualino0815/retro-stockexchange/raw/master/images/screen2.png" width="50%" />
 
-![Screenshot 3](images/screen3.png}{:width="50%"}
+## Application
+<image src="https://github.com/pasqualino0815/retro-stockexchange/raw/master/images/screen3.png" width="50%" />
 
 ## Enjoy
 
