@@ -11,11 +11,11 @@ The project consist of 3 seperate applications:
 - StockExchange: Buy Stocks for users
 - Client: Buy stocks with money stored in the bank
 
-![Screenshot 1](images/screenshot_1.jpg)
+![Screenshot 1](images/screen1.jpg)
 
-![Screenshot 1](images/screenshot_2.jpg)
+![Screenshot 1](images/screen2.jpg)
 
-![Screenshot 1](images/screenshot_3.jpg)
+![Screenshot 1](images/screen3.jpg)
 
 ## Enjoy
 
